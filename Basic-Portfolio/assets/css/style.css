@@ -24,7 +24,22 @@ header {
 
 li {
     float: right;
+    list-style-type: none;
 
+}
+
+h1 {
+    color:white;
+    background-color: turquoise;
+    width:35%;
+    margin-top: 50px;    
+}
+
+h2 {
+    color:white;
+    background-color: turquoise;
+    width:25%;
+    margin-top: 150px;
 }
 
 a {
@@ -33,9 +48,10 @@ a {
     background-color: white;
 }
 
+p1,p2,p3 {
+    font-family: "Arial", Helvetica Neue, Helvetica, sans-serif;
+    left : 100px;
 
-h1 {
-    background-color: turquoise;
 }
 
 p {
