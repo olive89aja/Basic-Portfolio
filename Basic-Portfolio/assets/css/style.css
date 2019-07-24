@@ -30,14 +30,14 @@ li {
 
 h1 {
     color:white;
-    background-color: turquoise;
+    background-color: #4aaaa5;
     width:35%;
     margin-top: 50px;    
 }
 
 h2 {
     color:white;
-    background-color: turquoise;
+    background-color: #4aaaa5;
     width:25%;
     margin-top: 150px;
 }
@@ -57,20 +57,26 @@ p1,p2,p3 {
 p {
     font-family: "Arial", Helvetica Neue, Helvetica, sans-serif;
     position : absolute;
-    left : 100px;
-    margin-top: 100px;
+    left : 60px;
+    margin-top: 50px;
 
 }
 
 p span {
     color : white;
-    background: turquoise;
-    padding: 10px;
+    background: #4aaaa5;
+    padding-right: 10px;
+}
+
+img {
+    width:140px;
+    height:100px;
 }
 
 .image1 {
     position: relative;
-    width: 40%;
+    float:left;
+    width: 25%;
    
 
 }
@@ -78,13 +84,14 @@ p span {
 .image2 {
     position: relative;
     float:right;
-    width: 40%;
+    width: 25%;
     
 
 }
 
 .image3 {
     position: relative;
+    float:left;
     width: 25%;
     
 
@@ -92,12 +99,13 @@ p span {
 
 .image4 {
     position: relative;
-    float:right;
-    width: 40%;
+    float:left;
+    width: 25%;
 }
 
 .image5 {
     position: relative;
+    float:left;
     width: 25%;
     
 }
