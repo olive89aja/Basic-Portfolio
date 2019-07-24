@@ -22,40 +22,67 @@ header {
     border-color:#cccccc;
 }    
 
+li {
+    float: right;
+
+}
+
+a {
+    display: block;
+    padding: 10px;
+    background-color: white;
+}
+
+
+h1 {
+    background-color: turquoise;
+}
+
 p {
     font-family: "Arial", Helvetica Neue, Helvetica, sans-serif;
+    position : absolute;
+    left : 100px;
+    margin-top: 100px;
+
+}
+
+p span {
+    color : white;
+    background: turquoise;
+    padding: 10px;
 }
 
 .image1 {
-    float: left;
-    padding-left:40px;
-    margin:0%;
-    margin-top: 40px;
+    position: relative;
+    width: 40%;
+   
 
 }
 
 .image2 {
-    float: right;
-    margin:0%;
+    position: relative;
+    float:right;
+    width: 40%;
+    
 
 }
 
 .image3 {
-    float: left;
-    margin:0%;
+    position: relative;
+    width: 25%;
     
 
 }
 
 .image4 {
-    float: right;
-    margin:0%;
-
+    position: relative;
+    float:right;
+    width: 40%;
 }
 
 .image5 {
-    float: left;
-    margin:0%;
+    position: relative;
+    width: 25%;
     
 }
 
