@@ -64,6 +64,12 @@ p {
 
 }
 
+div {
+    content: "";
+  display: table;
+  clear: both;
+}
+
 p span {
     color : white;
     background: #4aaaa5;
@@ -78,7 +84,6 @@ img {
 
 .image1 {
     position: relative;
-    float:left;
     width: 25%;
    
 
@@ -86,7 +91,6 @@ img {
 
 .image2 {
     position: relative;
-    float:right;
     width: 25%;
     
 
@@ -94,19 +98,16 @@ img {
 
 .image3 {
     position: relative;
-    float:left;
     width: 25%;    
 }
 
 .image4 {
     position: relative;
-    float:left;
     width: 25%;
 }
 
 .image5 {
     position: relative;
-    float:left;
     width: 25%;
 
 }
@@ -116,4 +117,15 @@ footer {
     background-color: #666666;
     border-top: 8px;
     color:#4aaaa5;
+}
+
+/*
+The css lines below were written by Sal. 
+The display of the five images was not enjoyable before, using floats. 
+*/
+
+.wrapper{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
